@@ -1,3 +1,6 @@
+// The function we use for knowing if we found the target or in which side it is is called "feasible function"
+// Basically it "allows the midIndex to know if array[midIndex] is truthy or falsy"
+
 function binarySearch(arr, target) {
   let left = 0;
   let right = arr.length - 1;
