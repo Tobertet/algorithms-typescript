@@ -16,7 +16,7 @@ const treeHeight = (root: TreeNode): number => {
   return Math.max(leftHeight, rightHeight) + 1;
 };
 
-const isBalanced = (root: TreeNode): boolean => {
+export const isBalanced = (root: TreeNode): boolean => {
   if (root === undefined) {
     return true;
   }
